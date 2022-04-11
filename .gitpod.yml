@@ -1,0 +1,12 @@
+tasks:
+  - init: |
+      docker compose pull
+      python -m pip install --upgrade pip
+  - command: |
+      docker compose up -d
+
+vscode:
+  extensions:
+    - ms-python.python
+    - formulahendry.code-runner
+    - ms-toolsai.jupyter-keymap
