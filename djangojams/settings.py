@@ -34,6 +34,7 @@ runserver.default_port = '7000'
 # Application definition
 
 INSTALLED_APPS = [
+    'music_library.apps.MusicLibraryConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
