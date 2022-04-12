@@ -30,6 +30,9 @@ from django.core.management.commands.runserver import Command as runserver
 ALLOWED_HOSTS = ['*']
 runserver.default_port = '7000' 
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://*.gitpod.io',
+]
 
 # Application definition
 
